@@ -1,5 +1,9 @@
-export default function CreateButton({ className, text }) {
+import { Link } from 'react-router';
+
+export default function CreateButton({ linkTo, linkClassName, buttonClassName, text }) {
     return(
-        <button className={className}> {text} </button>
+        <Link to={linkTo} className={linkClassName}>
+            <button className={buttonClassName}> {text} </button>
+        </Link>
     )
 }

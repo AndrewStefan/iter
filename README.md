@@ -1,4 +1,4 @@
-# iter-lingua
+# iter
 
 ## Description
 
