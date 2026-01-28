@@ -32,3 +32,13 @@ body {
     line-height:1;
     padding-left:10px;
 }
+
+.course-lessons-list {
+  display: flex;
+  flex-direction: row;
+  min-height: 70vh;
+  background-color: #dadada;
+  border-radius: 0.5em;
+  margin-top: 10px;
+  margin-right: 10px;
+}

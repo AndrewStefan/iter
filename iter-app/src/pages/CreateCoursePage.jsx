@@ -16,11 +16,12 @@ export default function CreateCoursePage() {
                   <label>
                     Title <input name="title" />
                   </label>
+                </div>
 
                 <div className="course-lessons-list">
 
 
-                </div>
+
 
 
 
