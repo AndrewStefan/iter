@@ -1,0 +1,17 @@
+.save-button-container {
+    display: flex;
+    justify-content: left;
+}
+
+.save-course-button {
+  border: none;
+  background-color: #d0d0d0;
+  cursor: pointer;
+  border-radius: 0.5em;
+  font-size: 23px
+}
+
+.save-button-container {
+  margin-top: auto;
+  justify-content: center;
+}

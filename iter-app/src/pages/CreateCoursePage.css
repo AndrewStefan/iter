@@ -1,0 +1,34 @@
+body {
+  background-color: #fafafa;
+}
+
+.create-page-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+
+.div-left {
+  grid-column: 1;
+  grid-row: 1;
+  min-height: 97vh;
+  display: flex;
+  flex-direction: column;
+  border-radius: 0.5em;
+}
+
+.div-right {
+  grid-column: 2;
+  grid-row: 1;
+  min-height: 97vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #dadada;
+  border-radius: 0.5em;
+}
+
+.created-lessons-header {
+    height: 100px;
+    line-height:1;
+    padding-left:10px;
+}
