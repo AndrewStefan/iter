@@ -12,9 +12,11 @@ body {
   grid-column: 1;
   grid-row: 1;
   min-height: 97vh;
+  min-width: 60vw;
   display: flex;
   flex-direction: column;
   border-radius: 0.5em;
+  box-shadow: 3px 4px 2px rgb(200 200 200);
 }
 
 .div-right {
@@ -22,8 +24,9 @@ body {
   grid-row: 1;
   min-height: 97vh;
   display: flex;
+  margin-left: 5px;
   flex-direction: column;
-  background-color: #dadada;
+  box-shadow: 3px 4px 2px rgb(200 200 200);
   border-radius: 0.5em;
 }
 
@@ -36,8 +39,8 @@ body {
 .course-lessons-list {
   display: flex;
   flex-direction: row;
-  min-height: 70vh;
-  background-color: #dadada;
+  min-height: 65vh;
+  box-shadow: 3px 4px 2px rgb(200 200 200);
   border-radius: 0.5em;
   margin-top: 10px;
   margin-right: 10px;

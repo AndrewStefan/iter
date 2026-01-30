@@ -20,14 +20,17 @@
 
 .create-course-button {
   background-color: #c8ffb0;
+  box-shadow: 3px 4px 2px rgb(200 200 200);
 }
 
 .load-course-button {
     background-color: #b0ffee;
+    box-shadow: 3px 4px 2px rgb(200 200 200);
 }
 
 .start-course-button {
   background-color: #fffeb0;
+  box-shadow: 3px 4px 2px rgb(200 200 200);
   width: 100%;
 }
 
@@ -38,7 +41,7 @@
 
 .back-button {
   border: none;
-  background-color: #bebebe;
+  box-shadow: 1px 1px rgb(200 200 200);
   cursor: pointer;
   border-radius: 0.5em;
 }
@@ -52,8 +55,8 @@
 
 .create-lesson-button {
   border: none;
-  background-color: #bebebe;
   cursor: pointer;
   border-radius: 0.5em;
-  font-size: 23px
+  font-size: 23px;
+  box-shadow: 1px 1px rgb(200 200 200);
 }

@@ -5,10 +5,11 @@
 
 .save-course-button {
   border: none;
-  background-color: #d0d0d0;
   cursor: pointer;
   border-radius: 0.5em;
-  font-size: 23px
+  font-size: 23px;
+  box-shadow: 1px 1px rgb(200 200 200);
+  margin-bottom: 10px;
 }
 
 .save-button-container {
