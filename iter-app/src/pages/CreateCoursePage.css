@@ -39,7 +39,7 @@ body {
 .course-lessons-list {
   display: flex;
   flex-direction: row;
-  min-height: 65vh;
+  min-height: 55vh;
   box-shadow: 3px 4px 2px rgb(200 200 200);
   border-radius: 0.5em;
   margin-top: 10px;

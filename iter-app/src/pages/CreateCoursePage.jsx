@@ -17,7 +17,7 @@ export default function CreateCoursePage() {
                     Title <input name="title" />
                   </label>
                 </div>
-
+                <h3> Lessons in the course </h3>
                 <div className="course-lessons-list">
 
 
